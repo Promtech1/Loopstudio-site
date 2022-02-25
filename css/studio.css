@@ -258,7 +258,7 @@ body {
 }
 
 .container .section2 .section2-header button {
-  width: 15%;
+  width: 130px;
   height: 40px;
   font-weight: 600;
   cursor: pointer;
@@ -523,6 +523,7 @@ body {
     width: 100%;
     height: 100%;
     margin-top: 3em;
+    padding: unset;
   }
   .container .section1 .section1-pic .section1-text h1 {
     width: 100%;
@@ -530,6 +531,7 @@ body {
   .container .section1 .section1-pic .section1-text p {
     max-width: 100%;
     text-align: center;
+    padding: unset;
   }
   .container .section1 .section1-pic img:nth-child(1) {
     display: none;
