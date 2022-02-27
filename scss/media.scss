@@ -224,3 +224,29 @@
         }
     }
 }
+
+//This is for the creations section
+@media only screen and (max-width:920px){
+    .container{
+        .section2{
+            .creations{
+                grid-template-columns:1fr 1fr ;
+                width: 90%;
+                .relative{
+                    img:nth-child(1){
+                        display: none;
+                    }
+
+                    img:nth-child(2){
+                        display: flex;
+                    }
+
+                    h3{
+                        top: 50%;
+                        font-size: 2.7vw;
+                    }
+                }
+            }
+        }
+    }
+}
