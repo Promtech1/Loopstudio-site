@@ -250,3 +250,85 @@
         }
     }
 }
+
+@media only screen and (max-width:670px){
+    .container{
+        .section2{
+            .creations{
+                grid-template-columns:1fr ;
+                width: 90%;
+                .relative{
+
+                    h3{
+                        bottom: 10%;
+                        left: 5%;
+                        top: unset;
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+
+            .section2-header{
+                justify-content: center;
+                text-align: center;
+                margin-bottom: 2em;
+                button{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:416px){
+    .container{
+        .section2{
+            .creations{
+                .relative{
+                    h3{
+                        font-size: 6vw;
+                    }
+                }
+            }
+
+            
+        }
+    }
+}
+//The creation section ends here
+
+//Responsiveness for footer section starts here
+@media only screen and (max-width:830px){
+    .container{
+        footer{
+            .shifter{
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .footer1{
+                    align-items: center;
+                }
+                .footer2{
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:830px){
+    .container{
+        footer{
+            .shifter{
+                .footer1{
+                    .footer1-nav{
+                        flex-direction: column;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+//Responsiveness for footer section ends here
