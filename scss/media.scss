@@ -1,0 +1,224 @@
+@media only screen and (max-width:800px){
+    .container{
+        header{
+            .absolute{
+                nav{
+                    .main-nav{
+                        display: none;
+                    }
+                    .open-mobile{
+                        display: flex;
+                    }
+                }
+            }
+
+            
+        }
+    }
+}
+
+
+// Responsiveness for header starts here
+@media only screen and (max-width:940px){
+    .container{
+        header{
+            .header-img{
+                img{
+                    height: 550px;
+                }
+            }
+
+            .absolute{
+                top: 50%;
+                gap: 10em;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:754px){
+    .container{
+        header{
+            position: relative;
+            .header-img{
+                height: 130vh;
+                img:nth-child(1){
+                    display: none;
+                }
+
+                img:nth-child(2){
+                    display: block;
+                    height: 100%;
+                }
+            }
+
+            .absolute{
+                position: absolute;
+                top: 5%;
+                transform: none;
+                left: 5%;
+                gap: 13em;
+
+                .header-h{
+                    margin: 0 auto;
+                    width: 100%;
+
+                    h2:nth-child(1){
+                        display: none;
+                    }
+
+                    h2:nth-child(2){
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width:528px){
+    .container{
+        header{
+            .absolute{
+                .header-h{
+                    h2{
+                        font-size: 8vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:400px){
+    .container{
+        header{
+            position: relative;
+            .header-img{
+                height: 100vh;
+                
+            }
+        }
+    }
+}
+// Responsiveness for header ends here
+
+//Responsiveness for section1 starts here
+@media only screen and (max-width:992px){
+    .container{
+        .section1{
+            .section1-pic{
+                height: max-content;
+                width: 100%;
+                margin-left: 0%;
+                .section1-text{
+                   position: unset;
+                   margin: 0 auto;
+                   text-align: center;
+                   width: 100%;
+                   height: 100%;
+                   margin-top: 3em;
+
+                   h1{
+                       width: 100%;
+                   }
+
+                   p{
+                       max-width: 100%;
+                       text-align: center;
+                   }
+                }
+
+                img:nth-child(1){
+                    display: none;
+                }
+
+                img:nth-child(2){
+                    display: block;
+                    margin: 0 auto;
+                    width: 80%;
+                    height: 400px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:640px){
+    .container{
+        .section1{
+            .section1-pic{
+                
+                .section1-text{
+                   h1{
+                       width: 100%;
+                   }
+                }
+
+                img:nth-child(1){
+                    display: none;
+                }
+
+                img:nth-child(2){
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:510px){
+    .container{
+        .section1{
+            .section1-pic{
+                
+                .section1-text{
+                   h1{
+                       width: 100%;
+                   }
+                }
+
+                img:nth-child(1){
+                    display: none;
+                }
+
+                img:nth-child(2){
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:510px){
+    .container{
+        .section1{
+            .section1-pic{
+                
+                .section1-text{
+                   h1{
+                       width: 100%;
+                       font-size: 1.9rem;
+                   }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:346px){
+    .container{
+        .section1{
+            .section1-pic{
+                .section1-text{
+                   h1{
+                       width: 100%;
+                       font-size: 9vw;
+                   }
+                }
+            }
+        }
+    }
+}
